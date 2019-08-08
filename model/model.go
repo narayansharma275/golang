@@ -1,0 +1,12 @@
+package model
+
+import "gopkg.in/mgo.v2/bson" // Importing Mongo's GO Driver
+
+//Defining structure for data
+
+type Movie struct {
+	ID          bson.ObjectId `bson:"_id" json:"id"`
+	Name        string        `bson:"name" json:"name"`
+	CoverImage  string        `bson:"cover_image" json:"cover_image"`
+	Description string        `bson:"description" json:"description"`
+}
