@@ -2,7 +2,12 @@
 Rest API for Creating, Finding, Deleting and Modifying a Collection a Movies Written in Golang with MongoDB Used as Database
 
 
-2 Dependencies : "github.com/BurntSushi/toml
+2 Dependencies : 
+
+1. "github.com/BurntSushi/toml   - Data Serialization File for Initiating the Database Creation
+
+2. "gopkg.in/mgo.v2"         - Mongo Driver for Go
+	 "gopkg.in/mgo.v2/bson"
 
 Make sure the structure of the directory remains intact when you clone it onto your computer.
 
